@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  php:
+    build: .
+    container_name: php-websocket
+    volumes:
+      - .:/var/www
+    ports:
+      - "8080:8080"
+    networks:
+      - websocket-net
+    command: ["php", "src/index.php"]
+
+networks:
+  websocket-net:
+    driver: bridge

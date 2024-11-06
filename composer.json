@@ -1,0 +1,17 @@
+{
+    "name": "fabio.augusto/php-websocket",
+    "require": {
+        "cboden/ratchet": "^0.4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "FabioAugusto\\PhpWebsocket\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fábio Augusto Rodrigues",
+            "email": "69022068+FabioAugustoRodrigues@users.noreply.github.com"
+        }
+    ]
+}
